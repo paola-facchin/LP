@@ -1,0 +1,133 @@
+.Nome-Home {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.Portfolio {
+    display: flex;
+    justify-content: center;
+    margin: 0  auto;
+    padding: 100px 0;
+    gap: 2rem;
+}
+.Portfolio .CardLeft{
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 1px;
+    background: #5e55ad;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px 1px black
+}
+.Portfolio .CardMeio{
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 1px;
+    background: #5e55ad;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px 1px black
+}
+.Portfolio .CardRight{
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 1px;
+    background: #5e55ad;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px 1px black
+}
+.CardLeft{
+    width: 25%;
+    padding: 20px 7px 20px 7px;
+}
+.CardLeft .Fotos{
+    display: flex;
+    justify-content: center;
+}
+.CardLeft img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    justify-content: center;
+}
+.CardLeft .dadosPessoais{
+    display: inline-block;
+    text-align: center;
+}
+.backgroundFotos{
+    background: white;
+}
+.CardMeio{
+    width: 25%;
+    padding: 20px 7px 20px 7px;
+}
+.CardMeio img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.CardMeio .Fotos{
+    display: flex;
+    justify-content: center;
+}
+.CardRight{
+    width: 25%;
+    padding: 20px 7px 20px 7px;
+}
+.CardRight img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nome{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.Profissao{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.Usuario .Icons{
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 10px 0 95px;
+}
+.Usuario{
+    margin-top: 6px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: white;
+}
+.Numero{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.Numero .Icons{
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 10px 0 95px;
+}
+.PapelParede{
+    background-image: url("../Membros/PapelParede.svg");
+
+}

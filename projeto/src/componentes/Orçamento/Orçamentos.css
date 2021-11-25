@@ -1,0 +1,73 @@
+.orçamento{
+    background-color: #527FBA;
+    padding-bottom: 2rem;
+}
+
+.backgroundOrçamento{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.luvaEMoeda{
+    display: inline-block;
+    text-align: left;
+    margin: 50px 0px 10px 50px;
+}
+.Mão{
+    margin: 40px 60px 0 60px;
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(-19px 19px 6px #383838);
+}
+
+.sobreOrçamento .botao{
+    justify-content: left;
+    display: inline-block;
+    text-align: left;
+    align-items: left;
+}
+
+.tituloOrçamento{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-left: 5%;
+    text-shadow: 0.1em 0.1em 0.2em rgb(48, 46, 46)
+}
+
+.fraseOrçamento{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    padding-left: 5%;
+    margin: 5px;
+    text-align: center;
+}
+
+.botaoOrçamento{
+    margin: 40px 0px 0px 50px;
+    display: inline-block;
+    padding: 15px 15px 20px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: double;
+    background-color: #5e55ae;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s all;
+    border: none;
+    box-shadow:2px 2px 3px 1px black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    background: #37326b;
+    transform: scale(1.1);
+}
+.CA{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,78 @@
+.Nome-Home4{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Montserrat', sans-serif; 
+    color: white;  
+}
+
+.Container{
+    padding: 0 6rem;
+}
+.form{
+    display: block;
+    text-align: center;
+}
+.form input{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 3px 1px black;
+    border-radius: 15px;
+}
+.form textarea{
+    display: inline-block;
+    justify-content: center;
+    box-shadow:2px 2px 3px 1px black;
+    border-radius: 15px;
+}
+label{
+    text-emphasis-color: #5e55ae;
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+input, textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    margin: 25px;
+    padding: 15px 0;
+    background: #5e55ae;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: double;
+    transition: 1s all;   
+    cursor: pointer; 
+    border: none;
+}
+
+.enviar:hover{
+    background: #5e55ae;
+    transform: scale(1.1);
+}
+
+.BackgroundFormularioFooter{
+    background:#527FBA;
+    border-radius: 3rem;
+}
+footer{
+    text-align: center;
+    background: #476ea1;
+    
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    background: #476ea1;
+    padding: 20px;
+    margin: 0;
+}

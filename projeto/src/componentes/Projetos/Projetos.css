@@ -1,0 +1,64 @@
+.Nome-Home2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em rgb(48, 46, 46)
+}
+.trabalhos{
+    padding: 0 0 55px 0;
+}
+.titulo-esq{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.esquerda{
+    display: flex;
+    width: 640px;
+    margin: 0 auto;
+}
+.texto-esq{
+    margin: 15px 30px;
+    font-size: 19px;
+    text-align: end;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.img-esq{
+    width: 60%;
+    box-shadow: 10px 10px 10px #000000;
+}
+.titulo-dir{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.direita{
+    display: flex;
+    width: 640px;
+    margin: 0 auto;
+}
+.texto-dir{
+    margin: 15px 30px;
+    font-size: 19px;
+    text-align: inherit;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.img-dir{
+    width: 60%;
+    box-shadow: -11px 9px 10px #000000;
+}
+
+.fundo{
+    padding: 50px;
+    background: rgb(228, 225, 225);
+}
+
