@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Orçamentos.css"
-import Luva from "../../assents/img/LuvaEMoeda.svg";
 
 class Orçamento extends Component{
     render(){
